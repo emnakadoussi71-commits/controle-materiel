@@ -1,6 +1,5 @@
 # controle-materiel
 
- TP : Explorer les Contrôles Material – Flutter
 1.  Objectif :
 
 L’objectif de ce TP est de découvrir et manipuler les principaux composants Material Design proposés par Flutter.
@@ -121,29 +120,6 @@ setState()
 
 Cela permet de reconstruire le widget lorsque l’état change.
 
-🏗️ Hiérarchie simplifiée
-
-MaterialApp
-
- └── Scaffold
- 
-      ├── AppBar
-      
-      ├── Column
-      
-      │    ├── Boutons
-      
-      │    ├── Switch
-      
-      │    ├── Slider
-      
-      │    ├── Text
-      
-      │    └── Card
-      
-      └── FloatingActionButton
-      
-
 ✅ Résultat obtenu
 
 L’application affiche :
@@ -159,6 +135,9 @@ L’application affiche :
 - Un bouton flottant
 
 L’utilisateur peut interagir avec les contrôles et voir les changements en temps réel.
+
+![ex3](ex3.jpg)
+
 
 
  Conclusion :
